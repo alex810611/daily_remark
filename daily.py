@@ -11,6 +11,10 @@ while True :
 	#p = [name , price]
 	products.append([name,price])
 
+for p in products: #列出清單中所有資訊
+	print(p[0],'的價格是',p[1])
+	
+
 	
 
 
